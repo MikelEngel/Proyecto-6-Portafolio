@@ -1,24 +1,51 @@
 import { Grid, Typography } from "@mui/material"
 
+
 export function AboutMe () {
     return (
         <Grid
-      container
+      container 
       direction="column"
-      justifyContent="center"
-      alignItems="center">
+      alignItems="center"
+      justify="space-around"
+      spacing={3}
+      
+      >
 
-    <Typography align="center">
+    <Grid item xs>
+    <Typography variant="body1" align="center"  gutterBottom="true">
 
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    Miguel Ángel Hernández Velasco
 
     </Typography>
+    </Grid>
+
+    <Grid item xs>
+    <Typography variant="body1" align="center"  gutterBottom="true">
+
+    Ingeniero en Sistemas Computacionales - UTEL Universidad 
+
+    </Typography>
+    </Grid>
+
+    <Grid item xs>
+    <Typography variant="body1" align="center"  gutterBottom="true">
+
+    Diseñador Gráfico y Digital - eduMac Centro de Artes Digitales
+    </Typography>
+    </Grid>
+
+    <Grid item xs>
+    <Typography variant="body1" align="center"  gutterBottom="true">
+
+    Desarrollador Web Full Stack - UCamp UTEL Universidad
+    </Typography>
+    </Grid>
 
 
     </Grid>
 
 
-    )
+    );
 
 }
