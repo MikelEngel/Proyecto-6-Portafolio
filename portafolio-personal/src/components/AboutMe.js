@@ -1,9 +1,20 @@
-import { Grid, Typography } from "@mui/material"
+import { Grid, /* makeStyles, */ Typography } from "@mui/material"
+
+/* const useStyles = makeStyles ((theme) => ({
+  container: {
+    background: '#f5f7f9',
+    padding: '30px',
+  }
+})) */
 
 
 export function AboutMe () {
+
+/* const classes = makeStyles();  
+ */
     return (
         <Grid
+    /*  className={classes.container} */
       container 
       direction="column"
       alignItems="center"
@@ -13,7 +24,7 @@ export function AboutMe () {
       >
 
     <Grid item xs>
-    <Typography variant="body1" align="center"  gutterBottom="true">
+    <Typography  align="center"  gutterBottom="true">
 
     Miguel Ángel Hernández Velasco
 
@@ -21,7 +32,7 @@ export function AboutMe () {
     </Grid>
 
     <Grid item xs>
-    <Typography variant="body1" align="center"  gutterBottom="true">
+    <Typography  align="center"  gutterBottom="true">
 
     Ingeniero en Sistemas Computacionales - UTEL Universidad 
 
@@ -29,14 +40,14 @@ export function AboutMe () {
     </Grid>
 
     <Grid item xs>
-    <Typography variant="body1" align="center"  gutterBottom="true">
+    <Typography  align="center"  gutterBottom="true">
 
-    Diseñador Gráfico y Digital - eduMac Centro de Artes Digitales
+    Master en Diseño Gráfico y Digital - eduMac Centro de Artes Digitales
     </Typography>
     </Grid>
 
     <Grid item xs>
-    <Typography variant="body1" align="center"  gutterBottom="true">
+    <Typography  align="center"  gutterBottom="true">
 
     Desarrollador Web Full Stack - UCamp UTEL Universidad
     </Typography>
